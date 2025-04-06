@@ -1,0 +1,94 @@
+{
+    "emergency_contacts": [
+        {
+            "id": "AMBULANCE",
+            "name": "Ambulance",
+            "number": "911",
+            "description": "Emergency medical services",
+            "type": "medical"
+        },
+        {
+            "id": "POLICE",
+            "name": "Police",
+            "number": "911",
+            "description": "Emergency police services",
+            "type": "police"
+        },
+        {
+            "id": "FIRE",
+            "name": "Fire Department",
+            "number": "911",
+            "description": "Emergency fire services",
+            "type": "fire"
+        },
+        {
+            "id": "POISON",
+            "name": "Poison Control",
+            "number": "1-800-222-1222",
+            "description": "24/7 poison control center",
+            "type": "medical"
+        },
+        {
+            "id": "MENTAL",
+            "name": "Mental Health Crisis",
+            "number": "988",
+            "description": "24/7 mental health crisis support",
+            "type": "mental_health"
+        },
+        {
+            "id": "REDCROSS",
+            "name": "Red Cross",
+            "number": "1-800-RED-CROSS",
+            "description": "Disaster relief and emergency assistance",
+            "type": "support"
+        }
+    ],
+    "hospitals": [
+        {
+            "id": "GENHOSP",
+            "name": "General Hospital",
+            "address": "123 Medical Center Drive",
+            "city": "Anytown",
+            "state": "CA",
+            "zip": "12345",
+            "phone": "555-123-4567",
+            "emergency_phone": "555-123-4567",
+            "type": "general"
+        },
+        {
+            "id": "CHILDHOSP",
+            "name": "Children's Hospital",
+            "address": "456 Pediatric Way",
+            "city": "Anytown",
+            "state": "CA",
+            "zip": "12345",
+            "phone": "555-234-5678",
+            "emergency_phone": "555-234-5678",
+            "type": "pediatric"
+        }
+    ],
+    "pharmacies": [
+        {
+            "id": "CVS",
+            "name": "CVS Pharmacy",
+            "address": "789 Main Street",
+            "city": "Anytown",
+            "state": "CA",
+            "zip": "12345",
+            "phone": "555-345-6789",
+            "hours": "24/7",
+            "type": "retail"
+        },
+        {
+            "id": "WALGREENS",
+            "name": "Walgreens",
+            "address": "321 Oak Avenue",
+            "city": "Anytown",
+            "state": "CA",
+            "zip": "12345",
+            "phone": "555-456-7890",
+            "hours": "24/7",
+            "type": "retail"
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "apis": {
+        "openstreetmap": {
+            "base_url": "https://nominatim.openstreetmap.org",
+            "search_endpoint": "/search",
+            "reverse_endpoint": "/reverse",
+            "format": "json",
+            "limit": 10
+        },
+        "jitsi": {
+            "base_url": "https://meet.jit.si",
+            "room_prefix": "mediquick-",
+            "config": {
+                "startWithAudioMuted": true,
+                "startWithVideoMuted": true,
+                "enableClosePage": true,
+                "disableDeepLinking": true
+            }
+        },
+        "twilio": {
+            "base_url": "https://api.twilio.com",
+            "version": "2010-04-01",
+            "endpoints": {
+                "send_sms": "/Accounts/{account_sid}/Messages.json"
+            }
+        },
+        "infermedica": {
+            "base_url": "https://api.infermedica.com/v3",
+            "endpoints": {
+                "symptoms": "/symptoms",
+                "diagnosis": "/diagnosis",
+                "risk_factors": "/risk_factors"
+            }
+        },
+        "medgpt": {
+            "base_url": "https://api.medgpt.com",
+            "endpoints": {
+                "chat": "/chat",
+                "diagnosis": "/diagnosis",
+                "treatment": "/treatment"
+            }
+        }
+    },
+    "rate_limits": {
+        "openstreetmap": {
+            "requests_per_second": 1,
+            "requests_per_day": 1000
+        },
+        "jitsi": {
+            "max_participants": 100,
+            "max_duration": 1440
+        },
+        "twilio": {
+            "sms_per_minute": 1,
+            "sms_per_day": 100
+        },
+        "infermedica": {
+            "requests_per_minute": 60,
+            "requests_per_day": 1000
+        },
+        "medgpt": {
+            "requests_per_minute": 30,
+            "requests_per_day": 1000
+        }
+    }
+}

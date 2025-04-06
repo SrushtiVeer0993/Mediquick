@@ -1,0 +1,104 @@
+{
+    "conditions": [
+        {
+            "id": "COLD",
+            "name": "Common Cold",
+            "symptoms": [
+                "Runny or stuffy nose",
+                "Sore throat",
+                "Cough",
+                "Sneezing",
+                "Mild headache",
+                "Mild body aches",
+                "Low-grade fever"
+            ],
+            "severity": "mild",
+            "recommendations": [
+                "Rest and stay hydrated",
+                "Use over-the-counter cold medications",
+                "Use a humidifier",
+                "Gargle with warm salt water"
+            ]
+        },
+        {
+            "id": "FLU",
+            "name": "Influenza (Flu)",
+            "symptoms": [
+                "High fever",
+                "Severe body aches",
+                "Fatigue and weakness",
+                "Dry cough",
+                "Sore throat",
+                "Headache",
+                "Chills"
+            ],
+            "severity": "moderate",
+            "recommendations": [
+                "Seek medical attention",
+                "Rest and stay hydrated",
+                "Take prescribed antiviral medications",
+                "Use fever reducers as needed"
+            ]
+        },
+        {
+            "id": "COVID",
+            "name": "COVID-19",
+            "symptoms": [
+                "Fever or chills",
+                "Cough",
+                "Shortness of breath",
+                "Fatigue",
+                "Muscle or body aches",
+                "Loss of taste or smell",
+                "Sore throat",
+                "Headache"
+            ],
+            "severity": "high",
+            "recommendations": [
+                "Seek immediate medical attention",
+                "Isolate yourself",
+                "Get tested",
+                "Wear a mask",
+                "Monitor oxygen levels"
+            ]
+        },
+        {
+            "id": "MIGRAINE",
+            "name": "Migraine",
+            "symptoms": [
+                "Severe headache",
+                "Nausea",
+                "Vomiting",
+                "Sensitivity to light",
+                "Sensitivity to sound",
+                "Visual disturbances"
+            ],
+            "severity": "moderate",
+            "recommendations": [
+                "Rest in a dark, quiet room",
+                "Take prescribed migraine medication",
+                "Apply cold or warm compresses",
+                "Stay hydrated"
+            ]
+        },
+        {
+            "id": "ALLERGY",
+            "name": "Allergic Reaction",
+            "symptoms": [
+                "Sneezing",
+                "Itchy, watery eyes",
+                "Runny nose",
+                "Rash or hives",
+                "Swelling",
+                "Difficulty breathing"
+            ],
+            "severity": "varies",
+            "recommendations": [
+                "Take antihistamines",
+                "Use nasal sprays",
+                "Avoid allergens",
+                "Seek emergency care if severe"
+            ]
+        }
+    ]
+}
