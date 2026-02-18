@@ -265,7 +265,6 @@ include 'header.php';
                     <div class="doctor-card">
                         <h3><?php echo htmlspecialchars($doctor['name']); ?></h3>
                         <p class="specialty"><?php echo htmlspecialchars($doctor['specialization']); ?></p>
-                        <p class="qualification"><?php echo htmlspecialchars($doctor['qualification']); ?></p>
                         
                         <div class="doctor-info">
                             <p><strong>Experience:</strong> <?php echo $doctor['experience']; ?> years</p>

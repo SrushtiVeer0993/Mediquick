@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if ($user && password_verify($password, $user['password'])) {
             $_SESSION['user_id'] = $user['id'];
             $_SESSION['name'] = $user['name'];
-            $_SESSION['role'] = $user['role'];
+            $_SESSION['role'] = isset($user['role']) ? $user['role'] : null;
             
             // Log login activity
             log_activity($user['id'], 'login', 'User logged in successfully');

@@ -422,16 +422,16 @@ include 'header.php';
                         <li class="contact-item">
                             <div class="contact-info">
                                 <div class="contact-name"><?php echo htmlspecialchars($contact['name']); ?></div>
-                                <div class="contact-number"><?php echo htmlspecialchars($contact['phone']); ?></div>
+                                <div class="contact-number"><?php echo htmlspecialchars($contact['phone_number']); ?></div>
                                 <?php if ($contact['relationship']): ?>
                                     <div class="contact-relationship"><?php echo htmlspecialchars($contact['relationship']); ?></div>
                                 <?php endif; ?>
                             </div>
                             <div class="contact-actions">
-                                <button class="call-btn" onclick="callEmergency('<?php echo htmlspecialchars($contact['phone']); ?>')" title="Call">
+                                <button class="call-btn" onclick="callEmergency('<?php echo htmlspecialchars($contact['phone_number']); ?>')" title="Call">
                                     <i class="fas fa-phone"></i>
                                 </button>
-                                <button class="call-btn" onclick="sendLocation('<?php echo htmlspecialchars($contact['phone']); ?>')" title="Share Location">
+                                <button class="call-btn" onclick="sendLocation('<?php echo htmlspecialchars($contact['phone_number']); ?>')" title="Share Location">
                                     <i class="fas fa-location-arrow"></i>
                                 </button>
                             </div>
